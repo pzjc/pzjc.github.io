@@ -44,7 +44,6 @@ $("body").on("click", function (e) {
 
     var colors=new Array("#00C8F8", "#59C4C5", "#FFC33C", "#FBE2B4", "#FF4C65", "#fff782");
     var index = Math.floor((Math.random()*10)/2);
-    console.log(index)
     $(".original").css({
       "background-color": colors[index]
     });

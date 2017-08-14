@@ -19,8 +19,8 @@ body {
 }
 
 .mouse {
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
     border-radius: 100%;
     background-color: #fff782;
     position: absolute;
@@ -33,21 +33,50 @@ body {
   width: 50%
 }
 .text {
-  font-size: 50px;
+  font-size: 20px;
   font-family:  'Raleway', sans-serif;
   text-align: center;
-  color: #bfbfbf;
+  color: #585858;
+}
+.intro {
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;;
+  text-align: center;
+  color:#808080;
+}
+.button{
+  border-color: #585858;
+  border: 2px;
+
+}
+
+.contact {
+  height: 40px;
+  top: 93vh;
+  text-align: center;
+  font-size: 25px;
+  color: #f2f2f2;
+  z-index: 10;
+  margin: auto;
+  width: 50%;
+}
+.fa {
+  padding-right: 8px !important;
+  color:#585858;
+}
+.fa:hover{
+  color:#f2f2f2;
 }
 @keyframes mouseAnimation {
 
     from {
-        width: 25px;
-        height: 25px
+        width: 15px;
+        height: 15px
     }
 
     to {
-        width: 15px;
-        height: 15px
+        width: 10px;
+        height: 10px
     }
 
 }
