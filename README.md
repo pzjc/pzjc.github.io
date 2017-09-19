@@ -1,2 +1,2 @@
-# Joyce Zhou Portfolio
+# Juechi Zhou Portfolio
 Coming soon
