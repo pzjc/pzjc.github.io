@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html >
 <head>
   <meta charset="UTF-8">
-  <title>Joyce Zhou｜周珏池</title>
+  <title>Juechi Zhou｜周珏池</title>
   <script src="https://use.fontawesome.com/04ee9d7103.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./static/favicon-32x32.png">
-  <meta name="keywords" content="Juechi Zhou, Joyce Zhou, 周珏池">
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/web/favicon.png">
   <!-- Global Site Tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72653288-1"></script>
   <script>
@@ -16,30 +15,577 @@
     gtag('js', new Date());
     gtag('config', 'UA-72653288-1');
   </script>
-
 </head>
 
 <body>
-  <div class="loading">
-  <img src="http://a.top4top.net/p_1990j031.gif" alt="Loading">
+  <div class="container-fluid navigation">
+      <hr class="head" />
+      <ul class="list">
+        <a href="#abt"><li>about</li></a>
+        <a href="#portfolio"><li>portfolio</li></a>
+      </ul>
+      <hr class="head" />
+  </div>
 
-  <div class="text-block">
-      <p class="text">Emmm...Joyce is working on it!</p>
-      <p class="text"></p>
-      <!-- <p class="note">Have fun playing with those dots</p> -->
-      <p class="intro">Juechi(Joyce) Zhou / 周珏池</p>
-      <p class="intro">software engineer intern @ Oath | master student @ Cornell Tech </p>
-      <div class="contact">
-          <a href="mailto: jz762@cornell.edu" target="_blank"><i class="fa fa-envelope-o"></i></a>
-          <a href="https://github.com/pzjc" target="_blank"><i class="fa fa-github"></i></a>
-          <a href="/static/Juechi_Zhou_Resume.pdf" target="_blank"><i class="fa fa-file-text-o"></i></a>
+<section id="abt">
+  <div class="container abt">
+    <div class="row">
+      <div class="col-sm-4 col-md-4 me">
+          <img class="self" src="./assets/web/self.jpg"/>
+      </div>
+      <div class="col-sm-8 col-md-8 about">
+        <h4>Juechi Zhou / 周珏池</h4>
+        <p style="color:#6b6b6; font-size:14px;">
+           a developer loves design and corgi <img class="paw" src="./assets/web/paw.svg"/>
+        </p>
+        <ul>
+          <li>master student @ Cornell Tech</li>
+          <li>previous software engineer intern @ Oath</li>
+          <li>certified national athlete @ Martial Art</li>
+        </ul>
+        </p>
+      </div>
     </div>
   </div>
 
+</section>
+
+<section id="portfolio">
+  <div class="container-fluid portfolio">
+    <main>
+      <div class='items'>
+        <a href="#portfolioModal1" data-toggle="modal">
+            <div class='item'>
+          <svg preserveAspectRatio='xMidYMid slice' viewBox='0 0 300 200'>
+            <defs>
+              <clipPath id='clip-0'>
+                <circle cx='0' cy='0' fill='#000' r='150px'></circle>
+              </clipPath>
+            </defs>
+            <text class='svg-text' dy='.3em' x='50%' y='50%'>
+              Orange
+            </text>
+            <g clip-path='url(#clip-0)'>
+              <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%' xlink:href='./assets/Orange/orange-logo-sm.png'></image>
+              <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
+                Orange
+              </text>
+            </g>
+          </svg>
+        </div>
+        </a>
+        <a href="#portfolioModal2" data-toggle="modal">
+            <div class='item'>
+          <svg preserveAspectRatio='xMidYMid slice' viewBox='0 0 300 200'>
+            <defs>
+              <clipPath id='clip-1'>
+                <circle cx='0' cy='0' fill='#000' r='150px'></circle>
+              </clipPath>
+            </defs>
+            <text class='svg-text' dy='.3em' x='50%' y='50%'>
+              Classtool
+            </text>
+            <g clip-path='url(#clip-1)'>
+              <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%' xlink:href='./assets/classtool/classtool_logo.png'></image>
+              <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
+              Classtool
+              </text>
+            </g>
+          </svg>
+        </div>
+        </a>
+        <a href="https://github.com/pzjc/nlp/tree/master/named-entity-recognizer" >
+          <div class='item'>
+            <svg preserveAspectRatio='xMidYMid slice' viewBox='0 0 300 200'>
+              <defs>
+                <clipPath id='clip-2'>
+                  <circle cx='0' cy='0' fill='#000' r='150px'></circle>
+                </clipPath>
+              </defs>
+              <text class='svg-text' dy='.3em' x='50%' y='50%'>
+                Named Entity Recognizer
+              </text>
+              <g clip-path='url(#clip-2)'>
+                <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%' xlink:href='./assets/NER/NER.png'></image>
+                <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
+                Named Entity Recognizer
+                </text>
+              </g>
+            </svg>
+          </div>
+        </a>
+
+<!-- Airbnb Analysis -->
+        <a href="#portfolioModal4" data-toggle="modal">
+            <div class='item'>
+            <svg preserveAspectRatio='xMidYMid slice' viewBox='0 0 300 200'>
+              <defs>
+                <clipPath id='clip-3'>
+                  <circle cx='0' cy='0' fill='#000' r='150px'></circle>
+                </clipPath>
+              </defs>
+              <text class='svg-text' dy='.3em' x='50%' y='50%'>
+                Airbnb Analysis
+              </text>
+              <g clip-path='url(#clip-3)'>
+                <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%' xlink:href='./assets/airbnb/airbnb.png'></image>
+                <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
+                Airbnb Analysis
+                </text>
+              </g>
+            </svg>
+          </div>
+        </a>
+
+<!-- Findoc -->
+        <!-- <a href="#portfolioModal5" data-toggle="modal">
+            <div class='item'>
+          <svg preserveAspectRatio='xMidYMid slice' viewBox='0 0 300 200'>
+            <defs>
+              <clipPath id='clip-4'>
+                <circle cx='0' cy='0' fill='#000' r='150px'></circle>
+              </clipPath>
+            </defs>
+            <text class='svg-text' dy='.3em' x='50%' y='50%'>
+              Findoc
+            </text>
+            <g clip-path='url(#clip-4)'>
+              <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%' xlink:href='./assets/findoc/findoc.png'></image>
+              <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
+              Findoc
+              </text>
+            </g>
+          </svg>
+        </div>
+       </a> -->
+<!-- Amtrak redesign -->
+        <!-- <a href="#portfolioModal6" data-toggle="modal">
+            <div class='item'>
+          <svg preserveAspectRatio='xMidYMid slice' viewBox='0 0 300 200'>
+            <defs>
+              <clipPath id='clip-5'>
+                <circle cx='0' cy='0' fill='#000' r='150px'></circle>
+              </clipPath>
+            </defs>
+            <text class='svg-text' dy='.3em' x='50%' y='50%'>
+              Amtrak Redesign
+            </text>
+            <g clip-path='url(#clip-5)'>
+              <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%' xlink:href='./assets/amtrak/amtrak.png'></image>
+              <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
+              Amtrak Redesign
+              </text>
+            </g>
+          </svg>
+        </div>
+        </a> -->
+      </div>
+    </main>
   </div>
-  <div class="mouse original"></div>
-  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-  <script src="js/index.js"></script>
+</section>
+
+<div class="container-fluid contact">
+  <a href="mailto: jz762@cornell.edu" target="_blank"><i class="fa fa-envelope-o"></i></a>
+  <a href="https://github.com/pzjc" target="_blank"><i class="fa fa-github"></i></a>
+  <a href="./assets/Juechi_Zhou_Resume.pdf" target="_blank"><i class="fa fa-file-text-o"></i></a>
+</div>
+
+
+<!-- Portfolio Modals -->
+<!-- Use the modals below to showcase details about your portfolio projects! -->
+
+<!-- Portfolio Modal 1 -->
+<div class="portfolio-modal modal" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <div class="project-title">
+                          <h2>Orange - Track what's important</h2>
+                        </div>
+                        <div class="project-details">
+                          <div class="intro">
+                          <div class="tags">
+                            <div class="type" style="border-left-color:#F16C00">
+                              <p>Web design + App design + development (React Native + ReactJS)</p>
+                            </div>
+                            <div class="role" style="border-left-color:#F16C00">
+                              <p>Designer and developer</p>
+                            </div>
+                            <div class="git" style="border-left-color:#F16C00">
+                              <a href="https://github.com/CornellProjects/hlthpal"><p>Project Git Repository<p></a>
+                            </div>
+                          </div>
+                          </div>
+                          <div class="content">
+                          <p><strong>Orange</strong> is an app that is designed specifically for cancer patients living in low-resource environments, like Rwanda and India.
+                            The app enables patients and their caregivers to communicate directly with health care professionals so that they can receive better care and support.
+                          </p>
+                          </div>
+                       <div class="row">
+                         <div class="col-sm-12 col-md-12 col-lg-12 subtitle">
+                           <h4>The problem</h4>
+                         </div>
+                         <div class="col-sm-12 col-md-12 col-lg-12">
+                           <p>Cancer patients in many developing countries receive very few services to help them manage their disease or that enable them
+                             to communicate with health care professionals which could ultimately improve their quality of life.
+                             <br/>
+                             Traditionally, cancer patients in developing countries need to travel a long way to visit their doctors and fill in a paper form survey to report their
+                            symptoms. So that, their oncologits can have a more thorough view of conditions and track their symptoms more precisely. However, this could both doctors and
+                            patients too much time, especially when some patients live in rural areas.
+                           </p>
+                         </div>
+                         <div class="col-sm-12 col-md-8 col-lg-8">
+                           <img class="illustration"  src="./assets/Orange/form.png"></img>
+                         </div>
+                         <div class="col-sm-12 col-md-4 col-lg-4">
+                           <p class="caption">tradtional form</p>
+                         </div>
+                         <div class="col-sm-12 col-md-12 col-lg-12 subtitle">
+                           <h4>Our goal</h4>
+                         </div>
+                         <div class="col-sm-12 col-md-12 col-lg-12">
+                           <p>Prior research suggests that information technology can play a vital role in improving health outcomes for cancer patients.
+                             Our goal is to build a mobile application to help cancer patients submit their health information online without the need to visit a hospital or ll any paper
+                             based forms. The system will includes include a dashboard to help doctors and health care professionals assess the health
+                            needs of patients based on the data submitted by the pa-
+                            tients and make informed decisions about treatment and
+                            follow up visits. This will help the doctors prioritize patients
+                            who need urgent attention and manage their patients e-
+                            ciently. With the deployment of this application we hope
+                            to study the impact of mobile applications for patient care
+                            in low income communities.
+                           </p>
+                         </div>
+                         <div class="col-sm-12 col-md-12 col-lg-12 subtitle">
+                           <h4>Key features</h4>
+                         </div>
+                         <div class="col-sm-12 col-md-12 col-lg-12">
+                           <p> Known that we are building mobile tools for cancer patients, we paid more attention on how to make
+                             our design more understandable and user-friendly. The primary purpose of the mobile application is to
+                              provide a mechanism for cancer patients to submit their
+                              health data on-line using a mobile application without the
+                              need to visit the hospital.
+                             <br/>
+                             The main design challenge was
+                              to translate the standard paper based patient care forms,
+                              IPOS (Integrated Palliative care Outcome Scale) and APCA
+                              (African Palliative Care Association) into digital user inter-
+                              faces for developing countries. How to organize answer options to each question is a huge problem. After some discussion with our partners at
+                             Massachusetts general hospital. We decided to put them vertically to fit in the mobile device.
+                            </p>
+                         </div>
+                         <div class="col-sm-12 col-md-4 col-lg-4">
+                           <img class="illustration" src="./assets/Orange/Vertical.png">
+                         </div>
+                         <div class="col-sm-12 col-md-2 col-lg-2">
+                           <p class="caption">Vertical version</p>
+                         </div>
+                         <div class="col-sm-12 col-md-4 col-lg-4">
+                           <img class="illustration" src="./assets/Orange/Horizontal.png">
+                         </div>
+                         <div class="col-sm-12 col-md-2 col-lg-2">
+                           <p class="caption">Horizontal version</p>
+                         </div>
+
+                       <div class="col-sm-12 col-md-12 col-lg-12">
+                         <p>Then we wanted to ensure that patients with low
+                           literacy levels understood the answer options. We included a happy face to indicate good
+                           health and a sad face to indicate severe symptoms in the answer options.
+                          </p>
+                       </div>
+                       <div class="col-md-4 col-lg-4">
+                         <img class="illustration" src="./assets/Orange/faces.png">
+                       </div>
+                       <div class="col-sm-12 col-md-2 col-lg-2">
+                         <p class="caption" style="padding-top:150px;">happy face and sad face</p>
+                       </div>
+                       <div class="col-sm-12 col-md-6 col-lg-6">
+                         <p style="padding-top:20px;">Based
+                            on the feedback from our oncologists we learned that the
+                            design with the additional cues such as emojis rather than just numbers to describe the scale was better suited for
+                            patients in developing countries. One of the oncologists
+                            responded with the feedback "This looks really good! I
+                            think the design is very clear, and also clear (using both
+                            numbers and faces)."</p>
+                       </div>
+                       <div class="col-sm-12 col-md-12 col-lg-12">
+                         <p>We then implemented the app using React Native.</p>
+                       </div>
+                       <div class="col-sm-12 col-md-12 col-lg-12">
+                         <img class="illustration large" style="max-height:800px"src="./assets/Orange/poster.png">
+                       </div>
+                       <div class="col-sm-12 col-md-12 col-lg-12">
+                         <p>As the time of this writing, we are planning to do our first pilot test, as well as implementing our dashboard using React.JS. More details will be posted soon.</p>
+                       </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Portfolio Modal 2 -->
+<div class="portfolio-modal modal" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <div class="modal-body">
+                      <div class="project-title">
+                        <h2>Classtool - Lecture support platform</h2>
+                      </div>
+                      <div class="project-details">
+                        <div class="intro">
+                            <div class="tags">
+                              <div class="type" style="border-left-color:#F16C00">
+                                <p>Web design + Interaction design + development (PHP + MySQL)</p>
+                              </div>
+                              <div class="role" style="border-left-color:#F16C00">
+                                <p>Designer and backend developer</p>
+                              </div>
+                            </div>
+                        </div>
+                      <div class="content">
+                      <p><strong>Classtool</strong>  is an expandable lecture support platform designed for college English class.
+                      It was awarded as Outstanding Project of College Student Research Program in Beijing.</p>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12 subtitle">
+                          <h4>Inspiration</h4>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                          <p>Noticing that most undergraduates pay more attention to
+                            mobiles attending English class due to unvaried and boring
+                            teaching material and methods, we established a lecture support
+                            platform named “Classtool” based on the popular social media
+                            WeChat to add more dimensions to interaction and fun. </p>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12 subtitle">
+                          <h4>Field Research - Interview</h4>
+                          <p>To help us know more about what undergraduates’ and lecturers’ feeling for college English class, we interviewed 5 undergraduates and 3 lecturers.</p>
+                          <img src="./assets/classtool/Classtool_interview.png" class="illustration" style="max-height:800px;"/>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12 subtitle">
+                          <h4>Customer Journey Map</h4>
+                          <p>We invited users to help us improve our design: we discussed all the user scenarios and tried to discover every pain point. And we summarized our work in the customer journey map.</p>
+                          <img src="./assets/classtool/CJM-Lecturer.png" class="illustration" style="max-height:800px;"/>
+                          <p>In the following develop process, I iteratively proceeded to redesign the interaction flow in terms of user feedback. Eventually, we launched the platform and it was awarded Outstanding Project of College Student Research Program in Beijing.</p>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12 subtitle">
+                          <h4>Student Mobile Client</h4>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-md-6">
+                          <img src="./assets/classtool/Classtool_signin.png" class="illustration" />
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-md-6">
+                          <img src="./assets/classtool/Classtool_vote.png" class="illustration" />
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-md-6">
+                          <img src="./assets/classtool/Classtool_quiz.png" class="illustration" />
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-md-6">
+                          <img src="./assets/classtool/Classtool_assignment.png" class="illustration"/>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12 subtitle">
+                          <h4>Lecturer Dashboard</h4>
+                          <img src="./assets/classtool/Classtool_dash.png" class="illustration" style="max-height:800px;"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<!-- Portfolio Modal 3 -->
+<div class="portfolio-modal modal" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Modal 4 -->
+<div class="portfolio-modal modal airbnb" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <div class="project-title">
+                          <h2>Measuring Trust in Airbnb Profiles</h2>
+                        </div>
+                        <div class="project-details">
+                        <div class="intro">
+                            <div class="tags">
+                              <div class="type" style="border-left-color:#F16C00">
+                                <p>UX Research + Data Analysis</p>
+                              </div>
+                              <div class="git" style="border-left-color:#F16C00">
+                                <a href="https://github.com/pzjc/airbnb-analysis"><p>Project Git Repository<p></a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>With the rise of sharing economy we often find ourselves using popular online platforms as either consumers or producers of goods and services. When we explore deeper into the theories that drive online sharing economy models we see that trust plays a major role in how one is perceived online. Signaling theory in economics predicts that people show trustworthiness by disclosing more about themselves. Research in this area has shown that trust in online profiles can be increased by providing more trust signals. According to the Warranting theory by Walther and Parks (2002), warrants (trust signals) are perceived reliable cues that observers use to gauge one's true identity. Prior research has shown that higher warrants indicate reduced online deception. Our goal is to quantify and measure trust in online profiles using warrants presented in profile information. In this project we evaluate the various “warrants” (trust signals) present in an AirBnb host profile and propose a method to measure trust based on warrants.
+                            </p>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-12 col-md-12 col-lg-12 subtitle">
+                              <h4>Dataset</h4>
+                              <p>In order analyze trust and compute trust score of AirBnb profiles we used the data from <a href="insideairbnb.com">insideairbnb.com</a>. We used the airbnb listings data and review data published for New York City on 02 April, 2017.
+                              </p>
+                          </div>
+                          <div class="col-sm-12 col-md-12 col-lg-12 subtitle">
+                            <h4>Analysis</h4>
+                            <p>In order to quantify the listings dataset, we defined several trust warrants</p>
+                            <ul>
+                              <li>Host_identity_verified</li>
+                              <li>Number of host_verifications </li>
+                              <li>Host_has_profile_pic</li>
+                              <li>Host_reponse_rate</li>
+                            </ul>
+                            <br/>
+                            <p>We then compute the trust score by summing the normalized values of the warrants. The warrant values are normalized to get a values between 0 to 1.</p>
+                            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                  <mrow>
+                                    <msup><mi>Trust score</mi></msup>
+                                    <mo>=</mo>
+                                    <msup><mo>&sum;</mo><mi>W</mi><mn>i</mn></msup>
+                                  </mrow>
+                            </math>
+                            <p>Where Wi is the normalized value of the ith warrant. Since we use 4 features in our calculation the trust score has a range of 0.0  to 4.0. Based on the above formula we computed trust scores for all hosts in the listings dataset. The distribution of trust scores is shown below.
+                            </p>
+                            <br/>
+                            <img src="./assets/airbnb/distribution-of-trust-score.png" class="illustration medium" />
+                            <p>the X-axis represents the trust score which has a scale from 0 to 4, and the Y-axis represents proportion (percentage) of hosts for the the two categories. From the distribution of trust scores above we see that a majority of the super hosts have a high trust score compared to regular hosts.</p>
+                            <p>Another data point we wanted to analyze was the review score assigned to a host.  The review score indicates the average score given by other users and hence is good a representation of an external warrant. We wanted to understand if super hosts had a higher review score than regular hosts.The distribution of the review score for regular hosts and super hosts is shown below</p>
+                            <img src="./assets/airbnb/distribution-of-review-score.png" class="illustration medium" />
+                            <p>We extracted the review scores for each host from listings dataset. In the above figure, the X-axis shows the review score which has a scale from 0 to 10, and the Y-axis shows the proportion of host for scores. We can see that most super hosts have review score over 9, and around 70% of super hosts have review score of 10.  However, the review score distribution for regular host is flat. There are some regular hosts with review scores less than 6.  We can see that super hosts have higher review score than regular hosts.
+                            </p>
+                            <br/>
+                            <p>One of the questions that came to our mind during the analysis was - does high trust score indicate the host also has high review score? We wanted to understand if there is correlation between trust score and review score. To analyse if there is a correlation we plotted the review score against the trust scores for regular hosts and super hosts.
+                              We plot the trust score against the review score for regular hosts in figure 13 and for super hosts in figure-14. The X-axis represents the review score and the Y-axis represents the trust score. As we can see from the figures below, we did not find a definite correlation between the trust score and the review score. For example, a super host can have a high trust score and a review score. Similarly a regular host could have a high review score and a low trust score.
+                            </p>
+                            <img src="./assets/airbnb/regularhost_review_trust.png" class="illustration medium" />
+                            <img src="./assets/airbnb/superhost_review_trust_3.png" class="illustration medium" />
+                            <p>We also analyzed the reviews from the reviews dataset to understand if super hosts have higher positive reviews than regular hosts. We performed sentiment analysis to categorize reviews as positive or negative review. Some of the reviews were not in english language and were categorized as neutral review. The pie chart for the sentiment analysis is shown below. From the charts  given below we see that on an average super hosts have a higher percentage of positive reviews compared to regular hosts.
+                            </p>
+                            <img src="./assets/airbnb/piechart1.png" class="illustration medium" />
+                            <img src="./assets/airbnb/piechart2.png" class="illustration medium" />
+                          </div>
+                          <div class="col-sm-12 col-md-12 col-lg-12 subtitle">
+                            <p>From the data analysis of AirBnb listings and reviews we make the following observations: </p>
+                            <p>1. We can quantify and measure trust in AirBnb profiles using trust score computed from warrants in the profile information.</p>
+                            <p>2. Super hosts have a higher average trust compared to regular host (3.136 vs 2.55) indicating that they have more self generated warrants than regular hosts.</p>
+                            <p>3. Super hosts have a lower SD for trust score compared regular hosts.</p>
+                            <p>4. Super hosts have more others generated warrants (reviews) than regular hosts.</p>
+                            <p>5. Super hosts have higher percentage of positive reviews compared to regular hosts.</p>
+                          </div>
+                          <div class="col-sm-12 col-md-12 col-lg-12 subtitle">
+                            <h4>Future work</h4>
+                            <p>Our current analysis did not factor self description in the computation of trust score. Future work could use various methods to factor in profile self description in the calculation of  trust score. In our analysis we used unweighted average to compute trust score where each warrant was assumed to have equal weightage. Future work may focus on understanding which warrants have the higher influence on perceived trustworthiness and compute the trust score based on weighted average of the warrants were more powerful warrants are given higher weights. </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Modal 5 -->
+<div class="portfolio-modal modal" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Modal 6 -->
+<div class="portfolio-modal modal" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
 
 </body>
 </html>
